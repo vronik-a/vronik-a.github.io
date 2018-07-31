@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">   
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+    <title>About</title>
+
+    <style>
+        * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+
+        .navbar {
+        font-size: 18px;
+        color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        width: 100%;
+        background: rgb(247, 205, 129)
+        }
+
+        #main-nav {
+        list-style-type: none;
+        display: none;
+        flex-direction: column;
+        }
+
+        #main-nav li {
+        text-align: center;
+        margin: 15px auto;
+        }
+
+        .nav-links,
+        #logo {
+        text-decoration: none;
+        color: #fff;
+        }
+
+        a{
+            font-size: 20px
+        }
+
+        #logo:hover,
+        .nav-links:hover {
+        color: #fff;
+        }
+
+        #logo {
+        display: inline-block;
+        font-size: 22px;
+        margin-top: 10px;
+        }
+
+        .log{
+        display: grid;
+        grid-template-columns: 1% 3%;
+        width: 50%;
+        }
+
+        .firsty{
+        margin-left: 10px;
+        margin-top: 5px;
+        }
+
+        .first{
+        margin-left: 60px;
+        width: 200px;
+        font-size: 15px;
+        color: #fff;
+        }
+
+        #navbar-toggle {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer;
+        color: #fff;
+        font-size: 24px;
+        }
+
+        #navbar-toggle:hover {
+        color: #fff;
+        }
+
+        @media screen and (min-width: 768px) {
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 0;
+            height: 70px;
+            align-items: center;
+        }
+
+        #main-nav {
+            display: flex !important;
+            margin-right: 30px;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        #main-nav li {
+            margin: 0;
+        }
+
+        .nav-links {
+            margin-left: 40px;
+        }
+
+        #navbar-toggle {
+        display: none;
+        }
+        }
+    </style>
+</head>
+<body onbeforeunload="return myfunction()">
+
+    <nav class="navbar">
+        <span id="navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+    
+        <div class="log">
+            <div class="firsty"><img src="hold.jpg" height="50"></div>
+            
+            <div class="first">
+            <a href="#" id="logo">
+                <h5>PEOPLE</h5>
+            </a>
+            <br>
+            <p>Explore and Engage</p>
+            </div>   
+        </div>
+        
+        <ul id="main-nav">
+            <li>
+                <a href="home.html" target="_blank"  class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="about.html" target="_blank"  class="nav-links">About Us</a>
+            </li>
+            <li>
+                <a href="getinvolved.html" target="_blank"  class="nav-links">Get Involved</a>
+            </li>
+            <li>
+                <a href="contact.html" target="_blank"  class="nav-links">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+     <div class="container">
+         <div class="text">
+             <center>
+             <h1>EXPERIENCE PEOPLE</h1>
+             <br><br>
+             <p class="b">Hope Is Where the Heart Is</p>
+             <br>
+             <p>SoilFree wants to spread our message of hope and compassion. We believe that a single action can make a difference in the community, and that collective action can greatly impact the world. Through advocacy and outreach activities, our team works tirelessly each day to contribute their part to the greater good.</p>
+            </center>
+         </div>
+         <div class="image"></div>
+     </div> 
+     
+     <div class="containerr">
+        <div class="text1">
+        <center>
+            <h1>OUR STORY</h1>
+            <br><br>
+            <p class="b">Working Towards A better Tomorrow</p>
+            <br>
+            <p>Dealing with the challenges of today requires problem-solvers who bring different perspectives and are willing to take risks. PEOPLE emerged out of a pursuit to inspire and support the community, and a desire for actions to speak louder than words. Established in 2000, we’re an organization driven by progressive ideas, bold actions, and a strong foundation of support. Contact us to learn more and get involved.</p>
+        </center>
+        </div>
+        <div class="image1"></div>
+    </div>
+
+    <div class="container-1">
+        <div class="cont">
+            <center>
+                <h1>PEOPLE AT A GLANCE</h1>
+                <br><br>
+                <p class="b">A Bit of Background</p>
+                <br>
+                <p>Here at PEOPLE, we are driven by a single goal; to do our part in making the world a better place for all. Our decision making process is informed by comprehensive empirical studies and high quality data evaluation. We strive to build productive relationships and make a positive impact with all of our pursuits.</p>
+             </center>
+        </div>
+        <div class="second"></div>
+    </div>
+
+    <div class="content">
+        <div class="container2">
+            <div class="image" id="food"></div>
+            <div class="message">
+                <h2>DONATION DROP-OFF</h2>
+                <br>
+                <p class="c">Helping The Community</p>
+                <br>
+                <p>At PEOPLE, we are dedicated to stepping up our efforts in addressing this issue. Food Donation Drop-Off is by no means an easy feat, but through cooperation and community empowerment we believe we can facilitate progress in this area. We are always striving to make a difference, and invite you to learn more and lend your support.</p>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="image" id="health"></div>
+            <div class="message">
+                <h2>HEALTH CLINIC</h2>
+                <br><br>
+                <p class="c">Reinforcing Our Commitement</p>
+                <br>
+                <p>With this initiative, our goal is to promote great opportunities for those in need. With access to the right resources, people can become empowered by their own abilities and gain the confidence to fulfill their potential. Learn more about our work by getting in touch with our team today.</p>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="image" id="homeless"></div>
+            <div class="message">
+                <h2>HOMELESS OUTREACH</h2>
+                <br><br>
+                <p class="c">One Step At a Time</p>
+                <br>
+                <p>With our organization’s mission always in mind, we strive to find new strategies for dealing with this challenge. Homeless Outreach is something that we take very seriously, and our team is working each and every day to make a positive impact. Contact us to learn more about our commitment to this cause.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Follow
+        <br>
+        <a href="facebook.com" class="fab"><i class="fab fa-facebook-square"></i></a>
+        <a href="twitter.com" class="fab"><i class="fab fa-twitter"></i></a>
+        <a href="linkedin.com" class="fab"><i class="fab fa-linkedin-in"></i></a>
+    </footer>
+    
+    <script src="home.js"></script>
+
+</body>
+</html>

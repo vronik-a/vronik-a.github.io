@@ -1,0 +1,104 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    margin: 0 10% 0 10%
+}
+
+.image{
+    background-image: url('jar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+}
+
+.form{
+    padding: 5% 0 0 10%;
+    margin-bottom: 3%;
+    text-align: center
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0
+}
+
+h1{
+    color: rgb(247, 205, 129)
+}
+
+textarea{
+    width: 300px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+button{
+    width: 300px;
+    height: 30px;
+    border: 0;
+    background: transparent;
+    color: rgb(247, 205, 129);
+    font-size: 20px
+}
+
+#googleMap{
+    margin: 0 10% 2% 10%;
+    height:400px;
+}
+
+footer{
+    padding: 30px 20px;
+    font-size: 30px;
+    background-color: rgb(247, 205, 129);
+    color: #fff;
+    text-align: center
+}
+
+.fab{
+    color: #fff;
+    padding:0 5px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 400px 420px;
+        margin: 0 ;
+    }
+    
+    .image{ 
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .form{
+        padding: 5% ;
+        text-align: center;
+        width: 100%;
+    }
+    
+    input{
+        width: 100%;
+    }
+    
+    textarea{
+        width: 100%
+    }
+    
+    button{
+        width: 100%
+    }
+    
+    #googleMap{
+        margin: 0;
+        height:400px;
+        width: 100%;
+    }
+}

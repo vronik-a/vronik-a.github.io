@@ -1,0 +1,176 @@
+.container, .containerr{
+    width: 100%;
+    padding: 1% 15%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 220px 400px;
+}
+.text{
+    padding-bottom: 1%;
+}
+
+.image{
+    background-image: url('iStock-495808888.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.text-1{
+    height: 220px;
+}
+.image1{
+    background-image: url('woman-at-food-pantry.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-1{
+    width: 100%;
+    padding: 1% 15%;
+    display: grid;
+    grid-template-columns: .5fr 2fr;
+    grid-template-rows: 500px;
+}
+.cont{
+    height: 400px;
+    width: 400px;
+    padding: 15% 0;
+    margin: 10%  0;
+}
+.second{
+    height: 500px;
+    width: 550px;
+    background-image: url('soup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.container2{
+    width: 100%;
+    padding: 1% 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px;
+    grid-row-gap:50px 
+}
+.message{
+    padding: 20px 50px;
+    background: rgb(247, 205, 129)
+}
+
+#food{
+    background-image: url('food-donation.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#health{
+    background-image: url('health.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#homeless{
+    background-image: url('home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+h1, .b{
+    color: rgb(247, 205, 129);
+}
+
+.b, .c{
+    font-size: 20px
+}
+
+h2, .c{
+    color: white
+}
+
+footer{
+    padding: 30px 20px;
+    font-size: 30px;
+    background: rgb(247, 205, 129);
+    color: #fff;
+    text-align: center;
+}
+
+.fab{
+    color: #fff;
+    padding:0 5px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+        padding: 1% 1%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3% 300px;
+        margin: 0;
+    }
+
+    .containerr{
+        width: 100%;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5% 300px;
+        margin: 0;
+    }
+
+    .text1{
+        padding-bottom: 0;
+        height: 5%;
+    }
+
+    .message{
+        background: white
+    }
+
+    .image{
+        background-size: cover;
+        background-image: url('iStock-495808888.jpg');
+        background-repeat: no-repeat;
+    }
+
+    .container-1{
+        width: 100%;
+        padding: 0 1%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3%;
+        margin: 0;
+        margin-bottom: 0;
+        grid-gap: 0
+    }
+    .cont{
+        width: 100%;
+        padding: 3% 1%;
+        margin: 0;
+        background-color: white;
+        height:3%;
+    }
+    .second{
+        display: none;
+    }
+
+    .container2{
+        width: 100%;
+        padding: 1% 1%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 5%;
+        grid-gap: 5px
+    }
+    .message{
+        text-align: center
+    }
+
+    h1, h2, .c{
+        color: rgb(247, 205, 129)
+    }
+
+}
